@@ -37,7 +37,7 @@ Please Note: All the mapping is required only on the Module 1
 8. Redo the Step 7 for "Pricing_26072020.xlsx" as well. 
 9. Click on "Calculate NAV" macro button under Control sheet of "NAV Calculation.xlsm"
 
-# Foreword
+# [Foreword](#Foreword)
 
 This macro is a starting step for NAV calculation, utilizing some tweaks this can accurately fulfil NAV calculation requirement.
 
