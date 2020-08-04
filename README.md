@@ -1,10 +1,10 @@
 # Automated_NAV_Calculation 
 
 # Table of Content
-### Introduction
-### Assumptions
-### Automated_Fund_NAV_Calculation_processflow diagram
-### Steps to run the macro
+### [Introduction](#introduction-1)
+### [Assumptions](#assumptions-1)
+### [Automated_Fund_NAV_Calculation_processflow diagram](#automated_fund_nav_calculation_processflow-diagram-1)
+### [Steps to run the macro](#steps-to-run-the-macro-1)
 ### [Forward](#forward-1)
 
 # Introduction
