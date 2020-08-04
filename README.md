@@ -5,7 +5,7 @@
 ### Assumptions
 ### Automated_Fund_NAV_Calculation_processflow diagram
 ### Steps to run the macro
-### [Foreword](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/README.md#foreword-1)
+### [Forward](#forward-1)
 
 # Introduction
 The purpose of [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Cal/NAV%20Calculation.xlsm) is to create an automated process for the execution of Daily NAV calculation of a fund. There are multiple assumptions and pre-requisites that has been kept in place for the smooth execution of this macro.
@@ -37,7 +37,7 @@ Please Note: All the mapping is required only on the Module 1
 8. Redo the Step 7 for "Pricing_26072020.xlsx" as well. 
 9. Click on "Calculate NAV" macro button under Control sheet of "NAV Calculation.xlsm"
 
-# Foreword
+# Forward
 
 This macro is a starting step for NAV calculation, utilizing some tweaks this can accurately fulfil NAV calculation requirement.
 
