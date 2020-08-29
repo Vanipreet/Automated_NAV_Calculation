@@ -47,6 +47,6 @@ This macro expects manually updating the stock list however utilizing a third in
 
 If this macro is to run on windows system, "Task Scheduler" can be utilized to automatically update the input files at a precribed time from the source drive and also to automatically run this macro so NAV can be calculated without any human intervention. (Apple systems might also have something similar to task scheduler that can be utilized)
 
-#Disclaimer
+# Disclaimer
 
 The purpose of this macro is to showcase my fundamental understanding of fund accounting and of macro automation to the prospective employers. By no means the macro as is can be/ should be utilized for professional use.
