@@ -8,7 +8,7 @@
 ### [Forward](#forward-1)
 
 # Introduction
-The purpose of [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Calculation.xlsm) is to create an automated process for the execution of Daily NAV calculation of a fund. There are multiple assumptions and pre-requisites that has been kept in place for the smooth execution of this macro.
+The purpose of [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Calculation.xlsm) is to create an automated process for the execution of periodic NAV calculation of a fund. There are multiple assumptions and pre-requisites that has been kept in place for the smooth execution of this macro.
 
 # Assumptions
 This macro is built with few assumptions in mind as listed below
