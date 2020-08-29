@@ -22,7 +22,7 @@ This macro is built with few assumptions in mind as listed below
 Please note: Timing of the macro will have to updated for the above so that first macro picks up new stock list and then calculates NAV
 
 # Automated_Fund_NAV_Calculation_processflow diagram
-![alt text](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Calculation%20Processflow.png)
+![alt text](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/Automated%20NAV%20Calculation%20process.png)
 
 # Steps to run the macro
 
