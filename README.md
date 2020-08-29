@@ -6,6 +6,7 @@
 ### [Automated_Fund_NAV_Calculation_processflow diagram](#automated_fund_nav_calculation_processflow-diagram-1)
 ### [Steps to run the macro](#steps-to-run-the-macro-1)
 ### [Forward](#forward-1)
+### [Disclaimer](#Disclaimer-1)
 
 # Introduction
 The purpose of [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Calculation.xlsm) is to create an automated process for the execution of periodic NAV calculation of a fund. There are multiple assumptions and pre-requisites that has been kept in place for the smooth execution of this macro.
@@ -13,13 +14,10 @@ The purpose of [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV
 # Assumptions
 This macro is built with few assumptions in mind as listed below
 
-1. For the macro to run, we need two external data inputs, Daily Pricing Sheet and Daily Liability Sheet
+1. For the macro to run, we need three external data inputs, Daily Pricing Sheet, Daily transactions file and Daily Liability Sheet
 2. The macro is prepared for the purpose of daily NAV calculation and hence uses daily input files
 3. Macro and the data inputs are available under "H:\NAV Cal" directory, however as per the drive parition, this can be appropriately mapped
 4. Macro expects static input data. However with appropriate mapping, database can be also accurately utilized
-5. For a security addition to the fund, security has to be manually added under [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Cal/NAV%20Calculation.xlsm) under "NAV Calculation" worksheet at the to the bottom of the currently available stocks list.
-6. To create an automated stock list update, a third source of input will be required, which will pick the updated stock list and post under "NAV Calculation" worksheet.
-Please note: Timing of the macro will have to updated for the above so that first macro picks up new stock list and then calculates NAV
 
 # Automated_Fund_NAV_Calculation_processflow diagram
 ![alt text](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/Automated%20NAV%20Calculation%20process.png)
@@ -48,3 +46,7 @@ However the bigger picture is that instead of making this macro to work on a sin
 This macro expects manually updating the stock list however utilizing a third input source can be provided, which will pick the updated stock list and post under "NAV Calculation" worksheet.
 
 If this macro is to run on windows system, "Task Scheduler" can be utilized to automatically update the input files at a precribed time from the source drive and also to automatically run this macro so NAV can be calculated without any human intervention. (Apple systems might also have something similar to task scheduler that can be utilized)
+
+#Disclaimer
+
+The purpose of this macro is to showcase my fundamental understanding of fund accounting and of macro automation to the prospective employers. By no means the macro as is can be/ should be utilized for professional use.
