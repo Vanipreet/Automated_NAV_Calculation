@@ -8,7 +8,7 @@
 ### [Forward](#forward-1)
 
 # Introduction
-The purpose of [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Cal/NAV%20Calculation.xlsm) is to create an automated process for the execution of Daily NAV calculation of a fund. There are multiple assumptions and pre-requisites that has been kept in place for the smooth execution of this macro.
+The purpose of [NAV Calculation.xlsm](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/NAV%20Calculation.xlsm) is to create an automated process for the execution of Daily NAV calculation of a fund. There are multiple assumptions and pre-requisites that has been kept in place for the smooth execution of this macro.
 
 # Assumptions
 This macro is built with few assumptions in mind as listed below
@@ -26,16 +26,18 @@ Please note: Timing of the macro will have to updated for the above so that firs
 
 # Steps to run the macro
 
-1. Download the zip file [NAV Cal](https://github.com/Vanipreet/Automated_NAV_Calculation/tree/master/NAV%20Cal) onto your preferred location and unzip the file there
+1. Download the zip file [NAV Cal](https://github.com/Vanipreet/Automated_NAV_Calculation) onto your preferred location and unzip the file there
 2. Open "NAV Calculation.xlsm" workbook
-3. Right click on macro button "Calculate NAV"
+3. Right click on macro button "Portfolio Position"
 4. From the drop down options click on "Assign Macro"
-5. Select "Monthly_Recon" and click on "Edit" button
-6. Under module 1, map the Pricing and Liabilities file directory as per requirement
-Please Note: All the mapping is required only on the Module 1
-7. For test run, change the file name "Liabilities_26072020.xlsx" to current Date, Month and Year in DDMMYYYY format. Save the file and close
-8. Redo the Step 7 for "Pricing_26072020.xlsx" as well. 
-9. Click on "Calculate NAV" macro button under Control sheet of "NAV Calculation.xlsm"
+5. Select "StockList" and click on "Edit" button
+6. Under module 3, map the Pricing and Liabilities file directory as per requirement
+7. Repeat the step 6 for Module 1, Module 2, Module 4
+8. For test run, change the file name "Liabilities_28082020.xlsx" to current Date, Month and Year in DDMMYYYY format. Save the file and close
+9. Repeat the step 8 for "Pricing_28082020.xlsx" and "Transactions_28082020.xlsx"
+10. Click on "Portfolio Position", "Fund Pricing" and "Calculate NAV" macro button under Control sheet of "NAV Calculation.xlsm" in this specific order
+11. When the processing is complete on the third macro, message box will pop up advising the processing is complete. Click on "OK"
+12. Calculated NAV file is available under "NAVs" folder with today's date
 
 # Forward
 
