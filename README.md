@@ -45,7 +45,7 @@ However the bigger picture is that instead of making this macro to work on a sin
 
 This macro expects manually updating the stock list however utilizing a third input source can be provided, which will pick the updated stock list and post under "NAV Calculation" worksheet.
 
-If this macro is to run on windows system, "Task Scheduler" can be utilized to automatically update the input files at a precribed time from the source drive and also to automatically run this macro so NAV can be calculated without any human intervention. (Apple systems might also have something similar to task scheduler that can be utilized)
+If this macro is to run on windows system, "Task Scheduler" can be utilized to automatically update the input files at a precribed time from the source drive and also to automatically run this macro so NAV can be calculated without any human intervention. (Apple systems might also have something similar to task scheduler that can be utilized).
 
 # Disclaimer
 
