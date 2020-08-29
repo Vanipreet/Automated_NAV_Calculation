@@ -20,7 +20,7 @@ This macro is built with few assumptions in mind as listed below
 4. Macro expects static input data. However with appropriate mapping, database can be also accurately utilized
 
 # Automated_Fund_NAV_Calculation_processflow diagram
-![alt text](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/Automated%20NAV%20Calculation%20process.png)
+![alt text](https://github.com/Vanipreet/Automated_NAV_Calculation/blob/master/Calculation%20Files/Automated%20NAV%20Calculation%20process.png)
 
 # Steps to run the macro
 
